@@ -35,11 +35,11 @@ To reproduce the results:
 + Clone or download the folder from this repository.
 + Some large-size data or pretrained models are provided in [Google Drive folder](https://drive.google.com/drive/my-drive).
 + Run `python3 main_cc.py`
-+ Note: Due to the privacy requirements of Drug data, this repository only provide data and code for consumer complaints. 
++ Note: Due to the privacy requirements of Drug data, this repository only provides data and code for consumer complaints. 
 
 To play with the model, you can:
-+ Change classifier: In this code, the pretrained models are provided in folder `model/` in `h5`, `json`, and `pickle` format. You can train your own classifier and load it in the main function.
-+ Customize data, the ontology concepts, relations among ontology concepts, your anchor list, stopword lists in `data/`.
++ Change classifier: In this code, the pretrained models are provided in folder `model/` in `h5`, `json`, and `pickle` format. You can train your own classifier, save it in the same format, and then load it in the main function.
++ Customize data, ontology concepts, relations among ontology concepts, anchor list, and stopword list in `data/`.
 
 
 ## Issues
