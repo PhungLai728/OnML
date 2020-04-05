@@ -1,0 +1,25 @@
+Domain,Relationship,Range,,,,,,,,,
+1,cause,2,,1,Event,cause,Event_Outcome,2,,,
+5,create,1,,5,Thing_in_role,create,Event,1,,0,Complaint
+5,create,3,,5,Thing_in_role,create,Product,3,,1,Event
+5,do,1,,5,Thing_in_role,do,Event,1,,2,Event_outcome
+1,done by,5,,1,Event,done_by,Thing_in_role,5,,3,Product
+5,has,3,,5,Thing_in_role,has,Product,3,,4,Property
+5,has,4,,5,Thing_in_role,has,Property,4,,5,Thing_in_role
+5,has,0,,5,Thing_in_role,has,Complaint,0,,6,Negative
+0,is about,1,,0,Complaint,is_about,Event,1,,7,Object
+0,is about,2,,0,Complaint,is_about,Event_outcome,2,,,
+0,is about,3,,0,Complaint,is_about,Product,3,,,
+0,is about,4,,0,Complaint,is_about,Property,4,,,
+0,is about,5,,0,Complaint,is_about,Thing_in_role,5,,,
+2,is caused by,1,,2,Event_outcome,is_caused_by,Event,1,,,
+3,is of,5,,3,Product,is_of,Thing_in_role,5,,,
+4,is of,5,,4,Property,is_of,Thing_in_role,5,,,
+0,is of,5,,0,Complaint,is_of,Thing_in_role,5,,,
+5,provide,3,,5,Thing_in_role,provide,Product,3,,,
+6,relate,0,,,,,,,,,
+6,relate,1,,,,,,,,,
+6,relate,2,,,,,,,,,
+6,relate,3,,,,,,,,,
+6,relate,4,,,,,,,,,
+6,relate,5,,,,,,,,,

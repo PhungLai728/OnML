@@ -1,0 +1,3944 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/han3_lab/ontologies/2018/9/ODAO"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/han3_lab/ontologies/2018/9/ODAO">
+    <Prefix name="" IRI="http://www.semanticweb.org/han3_lab/ontologies/2018/9/ODAO"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AbuseBehavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abyssinian_Tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Addiction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#African_Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alcohol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amphetamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Angel_dust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anxiety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anxiety_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arnold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attention_deficit_hyperactivity_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AuntMary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aunti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Backwards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barbiturates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barbs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bathtub_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Batu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Belladonna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bennie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bennies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Benz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Benzodiazepine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bhong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BigH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bipolar_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlackMollies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlackWhack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Black_Beauties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Black_Mamba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Black_Tar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blackouts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bliss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bloom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blotters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blue_Heaven"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blue_Mollies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blunt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boker_Coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bombay_Blue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boomers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boot_Ups"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Booze"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brown_Sugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buttons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CJ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cactus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cactus_Buttons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cactus_Head"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cadillac_Express"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Candy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cannabinoid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cartwheels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cat_Tranquilizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cat_Valium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Catha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cathinone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chalk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charlie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chicken_Feed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chief"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#China_Girl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#China_White"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chinese_Tobacco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chiva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chocolate_Chip_Cookies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronic_pain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clarity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cliffhanger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clonazepam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CloudNine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cocaine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coke_Junior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cosmic_Blast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crackers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crosses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crystal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crystal_Meth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cubes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dabs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decreased_motivation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Depressants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Depression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DesignerDrug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dexies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dextroamphetamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dextromethorphan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dexy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diarrhea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Difficulty_concentrating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disco_Biscuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disturbed_sleep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diviner_Sage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dollies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dolls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Done"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dopes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dopium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dots"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dover_Powder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Downers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Downie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drowsy_High"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drug_withdrawal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dusters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecstasy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ephedrone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eye_Opener"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fake_Weed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_heart_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fenny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fentanyl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fever"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fizzies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flakka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flu-like_symptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flunitrazepam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Footballs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Friend"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gagers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gangster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ganja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gluey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GoFast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goob"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goodfellas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Green"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Green_Dragon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gym_Candy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#H"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hallucinations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hashish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#He_Man"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Headache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heart_palpitations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heartburn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hell_Dust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hemp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Herb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heroin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hilbilly_Powder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hocus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hooch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Huff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydrocodone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydromorphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hypertension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Idiot_Pills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IllegalDrug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infections"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inhalants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insomnia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irregular_heart_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irritability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IvoryWave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jackpot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jelly_Beans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jet_K"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jibb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joy_Juice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joy_Plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jungle_Juice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Junk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#K"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#K2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ketamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Khat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kibbles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kiddy_Cocaine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kiddy_Coke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kit_Kat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LA_Turnaround"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LSD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#La_Rocha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laughing_Gas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lethargy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lid_Opener"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Little_Smoke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Love_Boat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Love_Trip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lunar_Wave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lunch_Money_Drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lysergic_Acid_Diethylamide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MDMA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Magic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Magic_Mint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Magic_Mushrooms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Major_depressive_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maria_Pastora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marijuana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mellow_Yellow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mesc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mescaline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Methadone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Methamphetamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Methcathinone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Methlies_Quick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mexican_Valium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microdot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Molly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mood_swings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moon_Rocks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Morphine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muscle_pain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muscle_stiffness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mushrooms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Myalgia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Narcotics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nausea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_Worries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OXY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OXYcotton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obstructive_lung_disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oranges"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organ_damage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Os"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ox"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Panic_attacks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paranoia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peace_Pill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peanut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peyote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phencyclidine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pin_Yen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pineapple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pingus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poison"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poor_Man_PCP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poppers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrescriptionDrug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Promethazine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psilocybin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychological_dependence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pumpers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pupil_dilation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purple_Drank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purple_Passion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Qat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#R_Pop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rainbow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red_Bullets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red_Dolls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reefer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restlessness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reynolds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ritalin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ritz_An_Ts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robotripping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rohypnol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roofies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rophy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rotgut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roxy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ruffles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#STP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sally-D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salvia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scarface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seizures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sheets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shepherdess_Herb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sherm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Short-term_memory_loss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shrooms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SideEffect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Simon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sinsemilla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sipin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skippy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skittles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skunk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sleep_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sleepers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slick_Superspeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smacked"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smart_Drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smarties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smoke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snappers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soda_Cot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sparkles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Special_K"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stackers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Star"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Steroids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stoppers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stove_Top"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Study_Buddies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stumbler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Substance_dependence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Substance_intoxication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Substance_use_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sweating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Synthetic_Cathinones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TNT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tango_And_Cash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Patch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thunder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tooles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tootsies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tremors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triple_C"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trouble_in_interpersonal_relationships"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Truck_Drivers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tweak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tweeker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Upper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uppers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vanilla_Sky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Velvet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin_K"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitamin_R"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wafer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wake_Ups"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weight_Gainers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#West_Coast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whippets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White_Horse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White_Lightning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whiz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wild_Cat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Window_Pane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wolfies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wonder_Star"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#XTC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yellow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yellow_Barn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yellow_Jackes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yellow_Sunshine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yucatan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zohai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zombie_Weed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a_buzz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#abuse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#be_as_high_as_a_kite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#be_buzzed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#be_doped_up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#be_high"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#be_jacked_up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#be_juicing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#be_strung_out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beer_blunt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#burn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#buzzed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#come_down"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comedown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#crack_den"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dietCoke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#doped_up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fat_blunt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#get_a_buzz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#high_as_a_kite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#huff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inhale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mainline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overdose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#peddle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#permafry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pop_pills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#push"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#push_drugs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#re-up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#schmoke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shoot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shoot_up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#skunk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#smoking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#smuggle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sniff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#snort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spliff_up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spray"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#strung_out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#supply"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#take"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#take_a_hit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#take_a_toke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#toke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#trip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tweak_out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uppers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#use"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#waste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lover&apos;sSpeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M&amp;M"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#caused_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_source"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#involves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_had_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_involved_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_related_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_shown_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_source_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_suffered_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_treated_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_used_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#shows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#suffers_from"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_slang_term"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Cannabinoid"/>
+        <Class IRI="#Marijuana"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Abyssinian_Tea"/>
+        <Class IRI="#Khat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acid"/>
+        <Class IRI="#Lysergic_Acid_Diethylamide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adam"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Addiction"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#African_Salad"/>
+        <Class IRI="#Khat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agitation"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alcohol"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amped"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amphetamine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Angel_dust"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anxiety"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anxiety"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anxiety_disorder"/>
+        <Class IRI="#MedicalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apache"/>
+        <Class IRI="#Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arnold"/>
+        <Class IRI="#Steroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attention_deficit_hyperactivity_disorder"/>
+        <Class IRI="#MedicalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AuntMary"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aunti"/>
+        <Class IRI="#Opium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Backwards"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barbiturates"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barbs"/>
+        <Class IRI="#Barbiturates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bathtub_Speed"/>
+        <Class IRI="#Methcathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Batu"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beans"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Belladonna"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bennie"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bennies"/>
+        <Class IRI="#Dextroamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Benz"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Benzodiazepine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bhong"/>
+        <Class IRI="#Hashish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BigH"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bipolar_disorder"/>
+        <Class IRI="#MedicalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlackMollies"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlackWhack"/>
+        <Class IRI="#Opium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_Beauties"/>
+        <Class IRI="#Dextroamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_Beauties"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_Mamba"/>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_Tar"/>
+        <Class IRI="#Opium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blackouts"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bliss"/>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bloom"/>
+        <Class IRI="#Synthetic_Cathinones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blotters"/>
+        <Class IRI="#Lysergic_Acid_Diethylamide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blow"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blue_Heaven"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blue_Heaven"/>
+        <Class IRI="#Lysergic_Acid_Diethylamide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blue_Mollies"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blunt"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blunt"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boat"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boker_Coffee"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bombay_Blue"/>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boom"/>
+        <Class IRI="#Hashish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boomers"/>
+        <Class IRI="#Psilocybin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boot_Ups"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Booze"/>
+        <Class IRI="#Alcohol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brown_Sugar"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bud"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bump"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buttons"/>
+        <Class IRI="#Mescaline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCC"/>
+        <Class IRI="#Dextromethorphan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CJ"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cactus"/>
+        <Class IRI="#Mescaline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cactus_Buttons"/>
+        <Class IRI="#Mescaline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cactus_Head"/>
+        <Class IRI="#Mescaline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cadillac_Express"/>
+        <Class IRI="#Methcathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Candy"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cannabinoid"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cartwheels"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cat"/>
+        <Class IRI="#Khat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cat"/>
+        <Class IRI="#Methcathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cat_Tranquilizer"/>
+        <Class IRI="#Ketamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cat_Valium"/>
+        <Class IRI="#Ketamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catha"/>
+        <Class IRI="#Khat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cathinone"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chalk"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charas"/>
+        <Class IRI="#Hashish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charlie"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chat"/>
+        <Class IRI="#Khat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chicken_Feed"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chief"/>
+        <Class IRI="#Mescaline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#China_Girl"/>
+        <Class IRI="#Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#China_White"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chinese_Tobacco"/>
+        <Class IRI="#Opium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chiva"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate"/>
+        <Class IRI="#Opium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chocolate_Chip_Cookies"/>
+        <Class IRI="#Methadone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chronic"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chronic_pain"/>
+        <Class IRI="#MedicalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circles"/>
+        <Class IRI="#Rohypnol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clarity"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cliffhanger"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clonazepam"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CloudNine"/>
+        <Class IRI="#Synthetic_Cathinones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coca"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cocaine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coke"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coke_Junior"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coma"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cosmic_Blast"/>
+        <Class IRI="#Synthetic_Cathinones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crack"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crackers"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crank"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crank"/>
+        <Class IRI="#Methcathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crosses"/>
+        <Class IRI="#Dextroamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crystal"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crystal_Meth"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cubes"/>
+        <Class IRI="#Lysergic_Acid_Diethylamide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dabs"/>
+        <Class IRI="#Hashish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decreased_motivation"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Depressants"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Depression"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Depression"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DesignerDrug"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dex"/>
+        <Class IRI="#Dextromethorphan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dexies"/>
+        <Class IRI="#Dextroamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dextroamphetamine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dextromethorphan"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dexy"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Difficulty_concentrating"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disco_Biscuit"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disturbed_sleep"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diviner_Sage"/>
+        <Class IRI="#Salvia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dollies"/>
+        <Class IRI="#Methadone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dolls"/>
+        <Class IRI="#Methadone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Done"/>
+        <Class IRI="#Methadone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dope"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dopes"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dopium"/>
+        <Class IRI="#Opium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dots"/>
+        <Class IRI="#Lysergic_Acid_Diethylamide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dover_Powder"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Downers"/>
+        <Class IRI="#Barbiturates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Downie"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drowsy_High"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drug_withdrawal"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dusters"/>
+        <Class IRI="#Inhalants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ecstasy"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ephedrone"/>
+        <Class IRI="#Methcathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eve"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eye_Opener"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fake_Weed"/>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_heart_rate"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fen"/>
+        <Class IRI="#Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fenny"/>
+        <Class IRI="#Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fentanyl"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fever"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fire"/>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fizzies"/>
+        <Class IRI="#Methadone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flake"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flakka"/>
+        <Class IRI="#Synthetic_Cathinones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flu-like_symptoms"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flunitrazepam"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Footballs"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Friend"/>
+        <Class IRI="#Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gagers"/>
+        <Class IRI="#Methcathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gangster"/>
+        <Class IRI="#Hashish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ganja"/>
+        <Class IRI="#Hashish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ganja"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genie"/>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glass"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gluey"/>
+        <Class IRI="#Inhalants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GoFast"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goob"/>
+        <Class IRI="#Methcathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goodfellas"/>
+        <Class IRI="#Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grass"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Green"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Green_Dragon"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gym_Candy"/>
+        <Class IRI="#Steroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#H"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hallucinations"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hash"/>
+        <Class IRI="#Hashish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hashish"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#He_Man"/>
+        <Class IRI="#Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Headache"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Headache"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart_palpitations"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heartburn"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearts"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hell_Dust"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hemp"/>
+        <Class IRI="#Hashish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Herb"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heroin"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hilbilly_Powder"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hocus"/>
+        <Class IRI="#Opium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hog"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hooch"/>
+        <Class IRI="#Alcohol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horse"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horse"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Huff"/>
+        <Class IRI="#Inhalants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydro"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydrocodone"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydromorphone"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hypertension"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ice"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Idiot_Pills"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IllegalDrug"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indo"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infections"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhalants"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Sleep_disorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irregular_heart_rate"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irritability"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IvoryWave"/>
+        <Class IRI="#Synthetic_Cathinones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jackpot"/>
+        <Class IRI="#Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jelly_Beans"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jet_K"/>
+        <Class IRI="#Ketamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jibb"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jif"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joint"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joy_Juice"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joy_Plant"/>
+        <Class IRI="#Opium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juice"/>
+        <Class IRI="#Alcohol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juice"/>
+        <Class IRI="#Methadone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juice"/>
+        <Class IRI="#Steroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jungle_Juice"/>
+        <Class IRI="#Methadone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junk"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junk"/>
+        <Class IRI="#Methadone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junk"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#K"/>
+        <Class IRI="#Ketamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#K2"/>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ketamine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Khat"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kibbles"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kiddy_Cocaine"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kiddy_Coke"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kif"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kit_Kat"/>
+        <Class IRI="#Ketamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LA_Turnaround"/>
+        <Class IRI="#Dextroamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LSD"/>
+        <Class IRI="#Lysergic_Acid_Diethylamide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#La_Rocha"/>
+        <Class IRI="#Rohypnol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laughing_Gas"/>
+        <Class IRI="#Inhalants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lean"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lethargy"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lid_Opener"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Little_Smoke"/>
+        <Class IRI="#Psilocybin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Love_Boat"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Love_Trip"/>
+        <Class IRI="#Mescaline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lunar_Wave"/>
+        <Class IRI="#Synthetic_Cathinones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lunch_Money_Drug"/>
+        <Class IRI="#Rohypnol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lysergic_Acid_Diethylamide"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MDMA"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magic"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magic_Mint"/>
+        <Class IRI="#Salvia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magic_Mushrooms"/>
+        <Class IRI="#Psilocybin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Major_depressive_disorder"/>
+        <Class IRI="#MedicalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maria"/>
+        <Class IRI="#Methadone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maria_Pastora"/>
+        <Class IRI="#Salvia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marijuana"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mellow_Yellow"/>
+        <Class IRI="#Lysergic_Acid_Diethylamide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mesc"/>
+        <Class IRI="#Mescaline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mescaline"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meth"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Methadone"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Methamphetamine"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Methcathinone"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Methlies_Quick"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metho"/>
+        <Class IRI="#Methadone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexican_Valium"/>
+        <Class IRI="#Rohypnol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microdot"/>
+        <Class IRI="#Lysergic_Acid_Diethylamide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Molly"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mood_swings"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moon"/>
+        <Class IRI="#Mescaline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moon_Rocks"/>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Morphine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mud"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muscle_pain"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muscle_stiffness"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mushrooms"/>
+        <Class IRI="#Psilocybin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musk"/>
+        <Class IRI="#Psilocybin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Myalgia"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Narcotics"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negra"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#No_Worries"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OC"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OD"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OXY"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OXYcotton"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oat"/>
+        <Class IRI="#Khat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obstructive_lung_disease"/>
+        <Class IRI="#MedicalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ope"/>
+        <Class IRI="#Opium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Opium"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oranges"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organ_damage"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Os"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ox"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Panic_attacks"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paranoia"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paranoia"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peace"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peace_Pill"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peanut"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peyote"/>
+        <Class IRI="#Mescaline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharming"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phencyclidine"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phy"/>
+        <Class IRI="#Methadone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pin_Yen"/>
+        <Class IRI="#Opium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pineapple"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pingus"/>
+        <Class IRI="#Rohypnol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poison"/>
+        <Class IRI="#Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poor_Man_PCP"/>
+        <Class IRI="#Dextromethorphan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poppers"/>
+        <Class IRI="#Inhalants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pot"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrescriptionDrug"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Promethazine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psilocybin"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychological_dependence"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychosis"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pumpers"/>
+        <Class IRI="#Steroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pupil_dilation"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Purple"/>
+        <Class IRI="#Ketamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Purple_Drank"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Purple_Passion"/>
+        <Class IRI="#Psilocybin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qat"/>
+        <Class IRI="#Methcathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#R_Pop"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rainbow"/>
+        <Class IRI="#Barbiturates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rainbow"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red_Bullets"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red_Dolls"/>
+        <Class IRI="#Barbiturates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reefer"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restlessness"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reynolds"/>
+        <Class IRI="#Rohypnol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rib"/>
+        <Class IRI="#Rohypnol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rids"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ritalin"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ritz_An_Ts"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roach"/>
+        <Class IRI="#Rohypnol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robo"/>
+        <Class IRI="#Dextromethorphan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robotripping"/>
+        <Class IRI="#Dextromethorphan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rock"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rohypnol"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roids"/>
+        <Class IRI="#Steroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roofies"/>
+        <Class IRI="#Rohypnol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rope"/>
+        <Class IRI="#Rohypnol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rophy"/>
+        <Class IRI="#Rohypnol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rotgut"/>
+        <Class IRI="#Alcohol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roxy"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rs"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ruffles"/>
+        <Class IRI="#Rohypnol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rush"/>
+        <Class IRI="#Inhalants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#STP"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sally-D"/>
+        <Class IRI="#Salvia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salvia"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sauce"/>
+        <Class IRI="#Alcohol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scarface"/>
+        <Class IRI="#Synthetic_Cathinones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seizures"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sense"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shards"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sheets"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shepherdess_Herb"/>
+        <Class IRI="#Salvia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherm"/>
+        <Class IRI="#Psilocybin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Short-term_memory_loss"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shrooms"/>
+        <Class IRI="#Psilocybin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Simon"/>
+        <Class IRI="#Psilocybin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sinsemilla"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sipin"/>
+        <Class IRI="#Narcotics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skag"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skippy"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skittles"/>
+        <Class IRI="#Dextromethorphan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skittles"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skunk"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sleep_disorder"/>
+        <Class IRI="#MedicalCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sleepers"/>
+        <Class IRI="#Barbiturates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slick_Superspeed"/>
+        <Class IRI="#Methcathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smack"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smacked"/>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smart_Drug"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smarties"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smoke"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snappers"/>
+        <Class IRI="#Inhalants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snow"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soda_Cot"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soma"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sparkles"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Special_K"/>
+        <Class IRI="#Ketamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speed"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speed"/>
+        <Class IRI="#Dextroamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speed"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spice"/>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stackers"/>
+        <Class IRI="#Steroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Star"/>
+        <Class IRI="#Methcathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Steroids"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stoppers"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stove_Top"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Study_Buddies"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stumbler"/>
+        <Class IRI="#Barbiturates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stumbler"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Substance_dependence"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Substance_intoxication"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Substance_use_disorder"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sweating"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Synthetic_Cathinones"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TNT"/>
+        <Class IRI="#Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tac"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tango_And_Cash"/>
+        <Class IRI="#Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tar"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Patch"/>
+        <Class IRI="#Fentanyl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thunder"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tina"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tooles"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toot"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tootsies"/>
+        <Class IRI="#Barbiturates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topi"/>
+        <Class IRI="#Mescaline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trank"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trash"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trees"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tremors"/>
+        <Class IRI="#Drug_withdrawal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triple_C"/>
+        <Class IRI="#Dextromethorphan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trouble_in_interpersonal_relationships"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Truck_Drivers"/>
+        <Class IRI="#Dextroamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tweak"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tweeker"/>
+        <Class IRI="#Methcathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Upper"/>
+        <Class IRI="#Dextroamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uppers"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanilla_Sky"/>
+        <Class IRI="#Synthetic_Cathinones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Velvet"/>
+        <Class IRI="#Dextromethorphan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_K"/>
+        <Class IRI="#Ketamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_R"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wafer"/>
+        <Class IRI="#Methadone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wake_Ups"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weed"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weight_Gainers"/>
+        <Class IRI="#Steroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#West_Coast"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whippets"/>
+        <Class IRI="#Inhalants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Horse"/>
+        <Class IRI="#Heroin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Lightning"/>
+        <Class IRI="#Synthetic_Cathinones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whiz"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wild_Cat"/>
+        <Class IRI="#Methcathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Window_Pane"/>
+        <Class IRI="#Lysergic_Acid_Diethylamide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wolfies"/>
+        <Class IRI="#Rohypnol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wonder_Star"/>
+        <Class IRI="#Methcathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#X"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#XTC"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yellow"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yellow_Barn"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yellow_Jackes"/>
+        <Class IRI="#Barbiturates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yellow_Sunshine"/>
+        <Class IRI="#Lysergic_Acid_Diethylamide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yucatan"/>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zero"/>
+        <Class IRI="#Opium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zohai"/>
+        <Class IRI="#Synthetic_Cannabinoids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zombie_Weed"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoom"/>
+        <Class IRI="#Phencyclidine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a_buzz"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abuse"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bake"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#be_as_high_as_a_kite"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#be_buzzed"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#be_doped_up"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#be_high"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#be_jacked_up"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#be_juicing"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#be_strung_out"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beans"/>
+        <Class IRI="#Mescaline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beer_blunt"/>
+        <Class IRI="#Blunt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#burn"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bust"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buzzed"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clean"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#come_down"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comedown"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crack_den"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deal"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dietCoke"/>
+        <Class IRI="#Ritalin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dope"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#doped_up"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drop"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fat_blunt"/>
+        <Class IRI="#Blunt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fire"/>
+        <Class IRI="#Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fix"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#get_a_buzz"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#high_as_a_kite"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hit"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#huff"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inhale"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inject"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lace"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mainline"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overdose"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#peddle"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#permafry"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pipe"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pop"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pop_pills"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#push"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#push_drugs"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#re-up"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rush"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#schmoke"/>
+        <Class IRI="#smoking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#score"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sell"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shoot"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shoot_up"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#skunk"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smoking"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smuggle"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sniff"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#snort"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spike"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spliff_up"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spray"/>
+        <Class IRI="#Blunt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stone"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#strung_out"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#supply"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#take"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#take_a_hit"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#take_a_toke"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#toke"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#trip"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tweak_out"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#uppers"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#use"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#waste"/>
+        <Class IRI="#AbuseBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lover&apos;sSpeed"/>
+        <Class IRI="#Methylenedioxy_Methamphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M&amp;M"/>
+        <Class IRI="#Depressants"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Agitation"/>
+        <Class IRI="#Anxiety"/>
+        <Class IRI="#Coma"/>
+        <Class IRI="#Depression"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Fast_heart_rate"/>
+        <Class IRI="#Fever"/>
+        <Class IRI="#Heartburn"/>
+        <Class IRI="#Irritability"/>
+        <Class IRI="#Myalgia"/>
+        <Class IRI="#Nausea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agitation"/>
+        <Class IRI="#Anxiety"/>
+        <Class IRI="#Coma"/>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Fast_heart_rate"/>
+        <Class IRI="#Fever"/>
+        <Class IRI="#Heartburn"/>
+        <Class IRI="#Myalgia"/>
+        <Class IRI="#Nausea"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Anxiety_disorder"/>
+        <Class IRI="#Attention_deficit_hyperactivity_disorder"/>
+        <Class IRI="#Bipolar_disorder"/>
+        <Class IRI="#Chronic_pain"/>
+        <Class IRI="#Major_depressive_disorder"/>
+        <Class IRI="#Obstructive_lung_disease"/>
+        <Class IRI="#Sleep_disorder"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Decreased_motivation"/>
+        <Class IRI="#Drug_withdrawal"/>
+        <Class IRI="#Mood_swings"/>
+        <Class IRI="#Psychological_dependence"/>
+        <Class IRI="#Psychosis"/>
+        <Class IRI="#Substance_dependence"/>
+        <Class IRI="#Substance_intoxication"/>
+        <Class IRI="#Substance_use_disorder"/>
+        <Class IRI="#Trouble_in_interpersonal_relationships"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Difficulty_concentrating"/>
+        <Class IRI="#Disturbed_sleep"/>
+        <Class IRI="#Flu-like_symptoms"/>
+        <Class IRI="#Headache"/>
+        <Class IRI="#Heart_palpitations"/>
+        <Class IRI="#Hypertension"/>
+        <Class IRI="#Irregular_heart_rate"/>
+        <Class IRI="#Muscle_pain"/>
+        <Class IRI="#Muscle_stiffness"/>
+        <Class IRI="#Panic_attacks"/>
+        <Class IRI="#Restlessness"/>
+        <Class IRI="#Seizures"/>
+        <Class IRI="#Short-term_memory_loss"/>
+        <Class IRI="#Sweating"/>
+        <Class IRI="#Tremors"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Drug_withdrawal"/>
+        <Class IRI="#Psychological_dependence"/>
+        <Class IRI="#Psychosis"/>
+        <Class IRI="#Substance_dependence"/>
+        <Class IRI="#Substance_intoxication"/>
+        <Class IRI="#Substance_use_disorder"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Flu-like_symptoms"/>
+        <Class IRI="#Restlessness"/>
+        <Class IRI="#Seizures"/>
+        <Class IRI="#Tremors"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_source"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#caused_by"/>
+        <ObjectProperty IRI="#causes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has"/>
+        <ObjectProperty IRI="#is_had_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_source"/>
+        <ObjectProperty IRI="#is_source_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#involves"/>
+        <ObjectProperty IRI="#is_involved_with"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_shown_by"/>
+        <ObjectProperty IRI="#shows"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_suffered_by"/>
+        <ObjectProperty IRI="#suffers_from"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_treated_with"/>
+        <ObjectProperty IRI="#treats"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_used_by"/>
+        <ObjectProperty IRI="#uses"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#is_related_to"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#caused_by"/>
+        <Class IRI="#SideEffect"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#caused_by"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#causes"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_source"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#involves"/>
+        <Class IRI="#AbuseBehavior"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_involved_with"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_related_to"/>
+        <Class IRI="#SideEffect"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_related_to"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_shown_by"/>
+        <Class IRI="#AbuseBehavior"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_source_of"/>
+        <Class IRI="#Source"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_suffered_by"/>
+        <Class IRI="#SideEffect"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_suffered_by"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_used_by"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#shows"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#suffers_from"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treats"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#caused_by"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#causes"/>
+        <Class IRI="#SideEffect"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#causes"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_source"/>
+        <Class IRI="#Source"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#involves"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_had_by"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_involved_with"/>
+        <Class IRI="#AbuseBehavior"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_related_to"/>
+        <Class IRI="#AbuseBehavior"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_shown_by"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_source_of"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_suffered_by"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_treated_with"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_used_by"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#shows"/>
+        <Class IRI="#AbuseBehavior"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#suffers_from"/>
+        <Class IRI="#SideEffect"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#suffers_from"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_slang_term"/>
+        <Class IRI="#Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_slang_term"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#IllegalDrug</IRI>
+        <Literal>Basically Schedule I controlled substances defined by the Controlled Substances Act.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PrescriptionDrug</IRI>
+        <Literal>Basically Schedule II - V controlled substances defined by the Controlled Substances Act.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

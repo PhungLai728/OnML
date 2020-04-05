@@ -1,0 +1,2346 @@
+Prefix(:=<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-45#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a>
+
+Declaration(Class(:Account))
+Declaration(Class(:Airborne))
+Declaration(Class(:Airplane))
+Declaration(Class(:Apartment))
+Declaration(Class(:Appliance))
+Declaration(Class(:Backsplash))
+Declaration(Class(:Backyard))
+Declaration(Class(:Balcony))
+Declaration(Class(:Basement))
+Declaration(Class(:Bathroom))
+Declaration(Class(:Bay))
+Declaration(Class(:Belongings))
+Declaration(Class(:Boat))
+Declaration(Class(:Bridge))
+Declaration(Class(:Bridging_Loan))
+Declaration(Class(:Building))
+Declaration(Class(:Cabinet))
+Declaration(Class(:Camera))
+Declaration(Class(:Car))
+Declaration(Class(:Carport))
+Declaration(Class(:Carriage))
+Declaration(Class(:Castle))
+Declaration(Class(:Check))
+Declaration(Class(:Coaster))
+Declaration(Class(:Condo))
+Declaration(Class(:Consumer_Loan))
+Declaration(Class(:Conventional_Home_Mortgage))
+Declaration(Class(:Cottage))
+Declaration(Class(:Courtyard))
+Declaration(Class(:Credit_Card))
+Declaration(Class(:Dam))
+Declaration(Class(:Debit_Card))
+Declaration(Class(:Duplex))
+Declaration(Class(:Exterior))
+Declaration(Class(:FHA_Mortgage))
+Declaration(Class(:Farm_house))
+Declaration(Class(:Federal_Student_Loan))
+Declaration(Class(:Forklift))
+Declaration(Class(:Fridge))
+Declaration(Class(:Furnace))
+Declaration(Class(:Furniture))
+Declaration(Class(:Garage))
+Declaration(Class(:Garden))
+Declaration(Class(:Gift_Card))
+Declaration(Class(:HELOC))
+Declaration(Class(:Hall))
+Declaration(Class(:Harbor))
+Declaration(Class(:Hill))
+Declaration(Class(:Home))
+Declaration(Class(:Homesite))
+Declaration(Class(:Homestead))
+Declaration(Class(:Horse))
+Declaration(Class(:House))
+Declaration(Class(:Housing_Loan))
+Declaration(Class(:Interior))
+Declaration(Class(:Investment_Loan))
+Declaration(Class(:Kitchen))
+Declaration(Class(:Lake))
+Declaration(Class(:Living_room))
+Declaration(Class(:Loan))
+Declaration(Class(:Locomotive))
+Declaration(Class(:Loft))
+Declaration(Class(:Mobile_House))
+Declaration(Class(:Money_Transfer))
+Declaration(Class(:Mortgage))
+Declaration(Class(:Motel))
+Declaration(Class(:Mountain))
+Declaration(Class(:Mower))
+Declaration(Class(:Non_Purpose_Loan))
+Declaration(Class(:Oak))
+Declaration(Class(:Outbuilding))
+Declaration(Class(:Pasture))
+Declaration(Class(:Patio))
+Declaration(Class(:Pawn_Loan))
+Declaration(Class(:Payday_Loan))
+Declaration(Class(:Payroll_Card))
+Declaration(Class(:Pier))
+Declaration(Class(:Plane))
+Declaration(Class(:Plant))
+Declaration(Class(:Plantation))
+Declaration(Class(:Plaza))
+Declaration(Class(:Pond))
+Declaration(Class(:Pool))
+Declaration(Class(:Porch))
+Declaration(Class(:Prefab))
+Declaration(Class(:Prepaid_Card))
+Declaration(Class(:Private_Student_Loan))
+Declaration(Class(:Product))
+Declaration(Class(:Property))
+Declaration(Class(:Purposose_Loan))
+Declaration(Class(:Ranch))
+Declaration(Class(:Rig))
+Declaration(Class(:Rink))
+Declaration(Class(:Room))
+Declaration(Class(:Salon))
+Declaration(Class(:Stair))
+Declaration(Class(:Staircase))
+Declaration(Class(:Statue))
+Declaration(Class(:Student_Loan))
+Declaration(Class(:Sunroom))
+Declaration(Class(:Tank))
+Declaration(Class(:Thing_in_role))
+Declaration(Class(:Tower))
+Declaration(Class(:Townhome))
+Declaration(Class(:Townhouse))
+Declaration(Class(:Tractor))
+Declaration(Class(:Trading_Loan))
+Declaration(Class(:Tree))
+Declaration(Class(:Truck))
+Declaration(Class(:Tunnel))
+Declaration(Class(:VA_Mortgage))
+Declaration(Class(:Valuable))
+Declaration(Class(:Vault))
+Declaration(Class(:Vehicle))
+Declaration(Class(:Vehicle_Loan))
+Declaration(Class(:Vessel))
+Declaration(Class(:Villa))
+Declaration(Class(:Virtual_Currency))
+Declaration(Class(:Ware_house))
+Declaration(Class(:Yard))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-45#Garage/Carport>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-45#Office/Sunroom>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Abused>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Abusiveness>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Administrator>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Advance_witheld>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Advertising>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Advertising_for_product>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Afni>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_for_service_of_process>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_in_role>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Allianceone>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Amateur>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Anxious>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Application>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Asset>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Attoney>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Audit>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Auditor>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Authorization>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Bank_account>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Banking_service>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Bankruptcy>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Bill>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Billing_or_Payment_Problem>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Borrower>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Breach_of_Contract>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Broader_member>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Broker>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Buggy>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Buy>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Buyer>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Cancellation_or_withdrawal_refused>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Carrier>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Charge>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Chargedoff>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Checking_account>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Checksmart>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Cheque>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Citicorp>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Citizensbank>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Client>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Close>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Collateral>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Collecter>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Conduct>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Conflict>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Confuse>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Consortium>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Consumer>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Content>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Termination_Problem>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Terms_Problem>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_counterparty>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_originator>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_party>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_principal>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_third_party>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlled_company>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlled_party>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlling_party>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Cosigner>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Councilor>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Credit_account>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Creditor>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Customer_Service_Problem>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Damage>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Damage_>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dangerous>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Data_Collection>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dealer>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Debt>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Debtor>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Defendant>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deferral>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Delegation>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Delivery_Problem>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Denied>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deposit>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deposit_account>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deposit_witheld>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Depositor>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Derivative_contract_party>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Derogatory>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Designer>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Detriment>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Devastating>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disapprove>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disclosure>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disorganized>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dispute>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disruptive>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dropped>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dusk>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ecsi>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Email>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Endorsement>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Enterprise>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Environmental_Damage>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Error>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Escrow>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Establishment>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event_Outcome>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Eviction>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Examiner>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Exchange>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Executive>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Existing_Account>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fail>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fail_to_abide>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#False>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Falsifying>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fcu>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fee>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service_account>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service_provider>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Forced>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Foreclosure>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Forfeiture>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fraud>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fraudster>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fraudunder>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#General_Terms_Problem>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Guarantor>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Happiness>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Hardship>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Harm>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Harmful_Content>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Hassle>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#High_Pressure_Selling>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Holder>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Horrible>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Household>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Illegal_Content>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Illegal_financial_event>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Impound>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Improper>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_Marketing_Practices>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_assesment_of_a_Damage>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_information>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ineffective>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Inefficient>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Inflated>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Information_Problem>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Injustice>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Institution>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Institutional_unit>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Insurance>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Insurer>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Interest>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Intruder>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Investigator>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Investor>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Issuer>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Late>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lease>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Legal_agent>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lender>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lewd_or_Immoral_Conduct>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Licensed_agent>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Licensee>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Licensor>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lienholder>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Livid>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Loan>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Loan_account>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Locked>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Looting>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Loss>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lost>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Malicious>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Marketing>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Mastercard>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Merchant_service>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Miscellaneous>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Misconduct>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Miserable>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Mishandled>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Misinformation>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Misled>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Miss>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Missleading>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Mistake>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Monitor>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negotiation>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negotiation_of_terms>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Non_Account>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Noncompliant>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Not_afford>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Not_receive>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Not_show_up>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Offer_Problem>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Offeree>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Offeror>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ombudsmen>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Online>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Organization_member>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Originator>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overage>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overcharge>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overdraft>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overdrawn>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Owner>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Partner>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payee>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payer>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payment>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payment_Problem>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payment_service>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payoff>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payroll>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Personal_Selling>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Positive_outcome>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Post_purchase_phase>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Pre_purchase_phase>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Preposterous>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Prevent>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Price_unfair>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Privacy>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Privacy_Information>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Private_Data_Access>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Processing>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Producer>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Product_Problem>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Property_Damage>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Psychological_Damage>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Publisher>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purchase>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purchase_Phase>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purpose_and_Permission>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Rebuild>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Receiver>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Refinance>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Refusal_Problem>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Refuse>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registered_agent>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registrar>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registration_service>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Regulatory_service>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Remitter>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Render>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Repay>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Report>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Reporting_party>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Repossession>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Reputation_Damage>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Resent>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Responsible_party>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Revoked>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Robosigner>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Rudeness>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ruin>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sake>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sales_Methods>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sales_Promotion>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Savings_account>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Scam>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Security>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Security_holder>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Security_underwriter>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Seller>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service_provider>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Servicer>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Settlement>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shareholder>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shareholding>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shirk>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shortage>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Signatory>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Slammed>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Spoofed>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Stalling>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Struggle>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Subjected>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Submitter>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Subsidiary>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Supplier>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Swap_paying_party>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Swap_receiving_party>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Switching>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Tax>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Telemarketer>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Terminated>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Third_party_agent>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Threaten>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trader>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transaction>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transfer_service>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transferable_contract_holder>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trust_fund_manager>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trustee>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trustor>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ultimate_consumer>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unexpected_Charge>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unidentified>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unsolicated_Commercial_Communications>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unsolicated_Goods>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unsolicated_Service>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Untrutfulness>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unvalidate>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Vandalized>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Victim>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Violation>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Warrant_holder>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Withdrawal>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Wrong>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#borrower>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#contractually_capable_entity>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#lender>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#partner>))
+Declaration(Class(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#shareholder>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#cause>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#create>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#do>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#done_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#has>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_about>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_caused_by>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_of>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#provide>))
+Declaration(NamedIndividual(:Bank_Of_America))
+Declaration(NamedIndividual(:Bank_Of_Kansas_City))
+Declaration(NamedIndividual(:Bayview_Loan_Servicing))
+Declaration(NamedIndividual(:Caliber))
+Declaration(NamedIndividual(:Capital_One))
+Declaration(NamedIndividual(:Cardinal_Financial))
+Declaration(NamedIndividual(:Carrington))
+Declaration(NamedIndividual(:Chase))
+Declaration(NamedIndividual(:Citibank))
+Declaration(NamedIndividual(:Citimortgage))
+Declaration(NamedIndividual(:Clearpath_Lending))
+Declaration(NamedIndividual(:Competent_Mortgage))
+Declaration(NamedIndividual(:Deutsche_Bank))
+Declaration(NamedIndividual(:Ditech))
+Declaration(NamedIndividual(:Dovenmuehle))
+Declaration(NamedIndividual(:FHA))
+Declaration(NamedIndividual(:First_American_Mortgage_Trust))
+Declaration(NamedIndividual(:Flagstar))
+Declaration(NamedIndividual(:Frankin_American_Mortgage))
+Declaration(NamedIndividual(:Gmfs))
+Declaration(NamedIndividual(:Greentree))
+Declaration(NamedIndividual(:Hsbc))
+Declaration(NamedIndividual(:Indymac))
+Declaration(NamedIndividual(:Litton_Loan_Servicing))
+Declaration(NamedIndividual(:Loancare))
+Declaration(NamedIndividual(:Mason_Mcduffie))
+Declaration(NamedIndividual(:Nationstar))
+Declaration(NamedIndividual(:Ocwen))
+Declaration(NamedIndividual(:Penny_Mac))
+Declaration(NamedIndividual(:Platinum_Home_Mortgage))
+Declaration(NamedIndividual(:Quicken))
+Declaration(NamedIndividual(:Rocket_Mortgage))
+Declaration(NamedIndividual(:Rushmore))
+Declaration(NamedIndividual(:Santander))
+Declaration(NamedIndividual(:Select_Portfolio_Servicing))
+Declaration(NamedIndividual(:Selene_Finance))
+Declaration(NamedIndividual(:Seterus))
+Declaration(NamedIndividual(:Shellpoint_Mortgage_Servicing))
+Declaration(NamedIndividual(:Southwest_Funding))
+Declaration(NamedIndividual(:Us_Bank))
+Declaration(NamedIndividual(:Wachovia))
+Declaration(NamedIndividual(:Wells_Fargo))
+Declaration(NamedIndividual(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-45#360_Mortgage>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-45#M&T_Bank>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#BOA>))
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#cause> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#cause>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#cause> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#cause> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event_Outcome>)
+
+# Object Property: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#create> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#create>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#create> :Thing_in_role)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#create> :Product)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#create> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>)
+
+# Object Property: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#do> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#do>)
+
+InverseObjectProperties(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#do> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#done_by>)
+ObjectPropertyDomain(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#do> :Thing_in_role)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#do> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>)
+
+# Object Property: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#done_by> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#done_by>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#done_by> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#done_by> :Thing_in_role)
+
+# Object Property: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#has> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#has>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#has> :Thing_in_role)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#has> :Product)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#has> :Property)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#has> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint>)
+
+# Object Property: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_about> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_about>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_about> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint>)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_about> :Product)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_about> :Property)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_about> :Thing_in_role)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_about> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_about> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event_Outcome>)
+
+# Object Property: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_caused_by> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_caused_by>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_caused_by> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event_Outcome>)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_caused_by> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>)
+
+# Object Property: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_of> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_of>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_of> :Product)
+ObjectPropertyDomain(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_of> :Property)
+ObjectPropertyDomain(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_of> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint>)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_of> :Thing_in_role)
+
+# Object Property: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#provide> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#provide>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#provide> :Thing_in_role)
+ObjectPropertyRange(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#provide> :Product)
+
+
+############################
+#   Classes
+############################
+
+# Class: :Account (:Account)
+
+SubClassOf(:Account :Product)
+
+# Class: :Airborne (:Airborne)
+
+SubClassOf(:Airborne :Property)
+
+# Class: :Airplane (:Airplane)
+
+SubClassOf(:Airplane :Property)
+
+# Class: :Apartment (:Apartment)
+
+SubClassOf(:Apartment :Property)
+
+# Class: :Appliance (:Appliance)
+
+SubClassOf(:Appliance :Property)
+
+# Class: :Backsplash (:Backsplash)
+
+SubClassOf(:Backsplash :Property)
+
+# Class: :Backyard (:Backyard)
+
+SubClassOf(:Backyard :Property)
+
+# Class: :Balcony (:Balcony)
+
+SubClassOf(:Balcony :Property)
+
+# Class: :Basement (:Basement)
+
+SubClassOf(:Basement :Property)
+
+# Class: :Bathroom (:Bathroom)
+
+SubClassOf(:Bathroom :Property)
+
+# Class: :Bay (:Bay)
+
+SubClassOf(:Bay :Property)
+
+# Class: :Belongings (:Belongings)
+
+SubClassOf(:Belongings :Property)
+
+# Class: :Boat (:Boat)
+
+SubClassOf(:Boat :Property)
+
+# Class: :Bridge (:Bridge)
+
+SubClassOf(:Bridge :Property)
+
+# Class: :Bridging_Loan (:Bridging_Loan)
+
+SubClassOf(:Bridging_Loan :Loan)
+
+# Class: :Building (:Building)
+
+SubClassOf(:Building :Property)
+
+# Class: :Cabinet (:Cabinet)
+
+SubClassOf(:Cabinet :Property)
+
+# Class: :Camera (:Camera)
+
+SubClassOf(:Camera :Property)
+
+# Class: :Car (:Car)
+
+SubClassOf(:Car :Property)
+
+# Class: :Carport (:Carport)
+
+SubClassOf(:Carport :Property)
+
+# Class: :Carriage (:Carriage)
+
+SubClassOf(:Carriage :Property)
+
+# Class: :Castle (:Castle)
+
+SubClassOf(:Castle :Property)
+
+# Class: :Check (:Check)
+
+EquivalentClasses(:Check <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Cheque>)
+SubClassOf(:Check :Product)
+
+# Class: :Coaster (:Coaster)
+
+SubClassOf(:Coaster :Property)
+
+# Class: :Condo (:Condo)
+
+SubClassOf(:Condo :Property)
+
+# Class: :Consumer_Loan (:Consumer_Loan)
+
+SubClassOf(:Consumer_Loan :Loan)
+
+# Class: :Conventional_Home_Mortgage (:Conventional_Home_Mortgage)
+
+SubClassOf(:Conventional_Home_Mortgage :Mortgage)
+
+# Class: :Cottage (:Cottage)
+
+SubClassOf(:Cottage :Property)
+
+# Class: :Courtyard (:Courtyard)
+
+SubClassOf(:Courtyard :Property)
+
+# Class: :Credit_Card (:Credit_Card)
+
+SubClassOf(:Credit_Card :Product)
+
+# Class: :Dam (:Dam)
+
+SubClassOf(:Dam :Property)
+
+# Class: :Debit_Card (:Debit_Card)
+
+SubClassOf(:Debit_Card :Product)
+
+# Class: :Duplex (:Duplex)
+
+SubClassOf(:Duplex :Property)
+
+# Class: :Exterior (:Exterior)
+
+SubClassOf(:Exterior :Property)
+
+# Class: :FHA_Mortgage (:FHA_Mortgage)
+
+SubClassOf(:FHA_Mortgage :Mortgage)
+
+# Class: :Farm_house (:Farm_house)
+
+SubClassOf(:Farm_house :Property)
+
+# Class: :Federal_Student_Loan (:Federal_Student_Loan)
+
+SubClassOf(:Federal_Student_Loan :Loan)
+
+# Class: :Forklift (:Forklift)
+
+SubClassOf(:Forklift :Property)
+
+# Class: :Fridge (:Fridge)
+
+SubClassOf(:Fridge :Property)
+
+# Class: :Furnace (:Furnace)
+
+SubClassOf(:Furnace :Property)
+
+# Class: :Furniture (:Furniture)
+
+SubClassOf(:Furniture :Property)
+
+# Class: :Garage (:Garage)
+
+SubClassOf(:Garage :Property)
+
+# Class: :Garden (:Garden)
+
+SubClassOf(:Garden :Property)
+
+# Class: :Gift_Card (:Gift_Card)
+
+SubClassOf(:Gift_Card :Product)
+
+# Class: :HELOC (:HELOC)
+
+SubClassOf(:HELOC :Mortgage)
+
+# Class: :Hall (:Hall)
+
+SubClassOf(:Hall :Property)
+
+# Class: :Harbor (:Harbor)
+
+SubClassOf(:Harbor :Property)
+
+# Class: :Hill (:Hill)
+
+SubClassOf(:Hill :Property)
+
+# Class: :Home (:Home)
+
+SubClassOf(:Home :Property)
+
+# Class: :Homesite (:Homesite)
+
+SubClassOf(:Homesite :Property)
+
+# Class: :Homestead (:Homestead)
+
+SubClassOf(:Homestead :Property)
+
+# Class: :Horse (:Horse)
+
+SubClassOf(:Horse :Property)
+
+# Class: :House (:House)
+
+SubClassOf(:House :Property)
+
+# Class: :Housing_Loan (:Housing_Loan)
+
+SubClassOf(:Housing_Loan :Loan)
+
+# Class: :Interior (:Interior)
+
+SubClassOf(:Interior :Property)
+
+# Class: :Investment_Loan (:Investment_Loan)
+
+SubClassOf(:Investment_Loan :Loan)
+
+# Class: :Kitchen (:Kitchen)
+
+SubClassOf(:Kitchen :Property)
+
+# Class: :Lake (:Lake)
+
+SubClassOf(:Lake :Property)
+
+# Class: :Living_room (:Living_room)
+
+SubClassOf(:Living_room :Property)
+
+# Class: :Loan (:Loan)
+
+SubClassOf(:Loan :Product)
+
+# Class: :Locomotive (:Locomotive)
+
+SubClassOf(:Locomotive :Property)
+
+# Class: :Loft (:Loft)
+
+SubClassOf(:Loft :Property)
+
+# Class: :Mobile_House (:Mobile_House)
+
+SubClassOf(:Mobile_House :Property)
+
+# Class: :Money_Transfer (:Money_Transfer)
+
+SubClassOf(:Money_Transfer :Product)
+
+# Class: :Mortgage (:Mortgage)
+
+SubClassOf(:Mortgage :Product)
+
+# Class: :Motel (:Motel)
+
+SubClassOf(:Motel :Property)
+
+# Class: :Mountain (:Mountain)
+
+SubClassOf(:Mountain :Property)
+
+# Class: :Mower (:Mower)
+
+SubClassOf(:Mower :Property)
+
+# Class: :Non_Purpose_Loan (:Non_Purpose_Loan)
+
+SubClassOf(:Non_Purpose_Loan :Loan)
+
+# Class: :Oak (:Oak)
+
+SubClassOf(:Oak :Property)
+
+# Class: :Outbuilding (:Outbuilding)
+
+SubClassOf(:Outbuilding :Property)
+
+# Class: :Pasture (:Pasture)
+
+SubClassOf(:Pasture :Property)
+
+# Class: :Patio (:Patio)
+
+SubClassOf(:Patio :Property)
+
+# Class: :Pawn_Loan (:Pawn_Loan)
+
+SubClassOf(:Pawn_Loan :Loan)
+
+# Class: :Payday_Loan (:Payday_Loan)
+
+SubClassOf(:Payday_Loan :Loan)
+
+# Class: :Payroll_Card (:Payroll_Card)
+
+SubClassOf(:Payroll_Card :Product)
+
+# Class: :Pier (:Pier)
+
+SubClassOf(:Pier :Property)
+
+# Class: :Plane (:Plane)
+
+SubClassOf(:Plane :Property)
+
+# Class: :Plant (:Plant)
+
+SubClassOf(:Plant :Property)
+
+# Class: :Plantation (:Plantation)
+
+SubClassOf(:Plantation :Property)
+
+# Class: :Plaza (:Plaza)
+
+SubClassOf(:Plaza :Property)
+
+# Class: :Pond (:Pond)
+
+SubClassOf(:Pond :Property)
+
+# Class: :Pool (:Pool)
+
+SubClassOf(:Pool :Property)
+
+# Class: :Porch (:Porch)
+
+SubClassOf(:Porch :Property)
+
+# Class: :Prefab (:Prefab)
+
+SubClassOf(:Prefab :Property)
+
+# Class: :Prepaid_Card (:Prepaid_Card)
+
+SubClassOf(:Prepaid_Card :Product)
+
+# Class: :Private_Student_Loan (:Private_Student_Loan)
+
+SubClassOf(:Private_Student_Loan :Loan)
+
+# Class: :Product (:Product)
+
+SubClassOf(:Product ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_of> :Thing_in_role))
+
+# Class: :Property (:Property)
+
+SubClassOf(:Property ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_of> :Thing_in_role))
+
+# Class: :Purposose_Loan (:Purposose_Loan)
+
+SubClassOf(:Purposose_Loan :Loan)
+
+# Class: :Ranch (:Ranch)
+
+SubClassOf(:Ranch :Property)
+
+# Class: :Rig (:Rig)
+
+SubClassOf(:Rig :Property)
+
+# Class: :Rink (:Rink)
+
+SubClassOf(:Rink :Property)
+
+# Class: :Room (:Room)
+
+SubClassOf(:Room :Property)
+
+# Class: :Salon (:Salon)
+
+SubClassOf(:Salon :Property)
+
+# Class: :Stair (:Stair)
+
+SubClassOf(:Stair :Property)
+
+# Class: :Staircase (:Staircase)
+
+SubClassOf(:Staircase :Property)
+
+# Class: :Statue (:Statue)
+
+SubClassOf(:Statue :Property)
+
+# Class: :Student_Loan (:Student_Loan)
+
+SubClassOf(:Student_Loan :Loan)
+
+# Class: :Sunroom (:Sunroom)
+
+SubClassOf(:Sunroom :Property)
+
+# Class: :Tank (:Tank)
+
+SubClassOf(:Tank :Property)
+
+# Class: :Thing_in_role (:Thing_in_role)
+
+SubClassOf(:Thing_in_role ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#create> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>))
+SubClassOf(:Thing_in_role ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#do> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>))
+SubClassOf(:Thing_in_role ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#has> :Product))
+SubClassOf(:Thing_in_role ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#has> :Property))
+SubClassOf(:Thing_in_role ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#has> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint>))
+
+# Class: :Tower (:Tower)
+
+SubClassOf(:Tower :Property)
+
+# Class: :Townhome (:Townhome)
+
+SubClassOf(:Townhome :Property)
+
+# Class: :Townhouse (:Townhouse)
+
+SubClassOf(:Townhouse :Property)
+
+# Class: :Tractor (:Tractor)
+
+SubClassOf(:Tractor :Property)
+
+# Class: :Trading_Loan (:Trading_Loan)
+
+SubClassOf(:Trading_Loan :Loan)
+
+# Class: :Tree (:Tree)
+
+SubClassOf(:Tree :Property)
+
+# Class: :Truck (:Truck)
+
+SubClassOf(:Truck :Property)
+
+# Class: :Tunnel (:Tunnel)
+
+SubClassOf(:Tunnel :Property)
+
+# Class: :VA_Mortgage (:VA_Mortgage)
+
+SubClassOf(:VA_Mortgage :Mortgage)
+
+# Class: :Valuable (:Valuable)
+
+SubClassOf(:Valuable :Property)
+
+# Class: :Vault (:Vault)
+
+SubClassOf(:Vault :Property)
+
+# Class: :Vehicle (:Vehicle)
+
+SubClassOf(:Vehicle :Property)
+
+# Class: :Vehicle_Loan (:Vehicle_Loan)
+
+SubClassOf(:Vehicle_Loan :Loan)
+
+# Class: :Vessel (:Vessel)
+
+SubClassOf(:Vessel :Property)
+
+# Class: :Villa (:Villa)
+
+SubClassOf(:Villa :Property)
+
+# Class: :Virtual_Currency (:Virtual_Currency)
+
+SubClassOf(:Virtual_Currency :Product)
+
+# Class: :Ware_house (:Ware_house)
+
+SubClassOf(:Ware_house :Property)
+
+# Class: :Yard (:Yard)
+
+SubClassOf(:Yard :Property)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-45#Garage/Carport> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-45#Garage/Carport>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-45#Garage/Carport> :Property)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-45#Office/Sunroom> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-45#Office/Sunroom>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-45#Office/Sunroom> :Property)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Abused> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Abused>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Abused> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Abusiveness> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Abusiveness>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Abusiveness> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Administrator> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Administrator>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Administrator> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Responsible_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Advance_witheld> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Advance_witheld>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Advance_witheld> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Termination_Problem>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Advertising> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Advertising>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Advertising> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Advertising_for_product> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Advertising_for_product>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Advertising_for_product> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_Marketing_Practices>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Afni> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Afni>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Afni> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_for_service_of_process> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_for_service_of_process>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_for_service_of_process> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registered_agent>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_in_role> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_in_role>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_in_role> :Thing_in_role)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Allianceone> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Allianceone>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Allianceone> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Amateur> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Amateur>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Amateur> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Anxious> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Anxious>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Anxious> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Application> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Application>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Application> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Asset> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Asset>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Asset> :Thing_in_role)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Attoney> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Attoney>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Attoney> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Responsible_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Audit> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Audit>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Audit> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Auditor> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Auditor>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Auditor> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Responsible_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Authorization> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Authorization>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Authorization> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Authorization> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Responsible_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Bank_account> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Bank_account>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Bank_account> :Account)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Banking_service> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Banking_service>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Banking_service> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Bankruptcy> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Bankruptcy>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Bankruptcy> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Bill> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Bill>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Bill> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Billing_or_Payment_Problem> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Billing_or_Payment_Problem>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Billing_or_Payment_Problem> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purchase_Phase>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Borrower> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Borrower>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Borrower> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_party>)
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Borrower> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Breach_of_Contract> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Breach_of_Contract>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Breach_of_Contract> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Termination_Problem>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Broader_member> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Broader_member>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Broader_member> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlling_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Broker> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Broker>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Broker> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_third_party>)
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Broker> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Buggy> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Buggy>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Buggy> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Buy> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Buy>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Buy> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Buyer> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Buyer>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Buyer> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Cancellation_or_withdrawal_refused> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Cancellation_or_withdrawal_refused>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Cancellation_or_withdrawal_refused> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Termination_Problem>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Carrier> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Carrier>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Carrier> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Charge> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Charge>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Charge> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Chargedoff> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Chargedoff>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Chargedoff> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Checking_account> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Checking_account>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Checking_account> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service_account>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Checksmart> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Checksmart>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Checksmart> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Cheque> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Cheque>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Cheque> :Product)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Citicorp> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Citicorp>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Citicorp> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Citizensbank> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Citizensbank>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Citizensbank> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Client> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Client>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Client> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Close> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Close>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Close> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Collateral> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Collateral>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Collateral> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Asset>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Collecter> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Collecter>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Collecter> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint> ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#cause> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event_Outcome>))
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint> ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_about> :Product))
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint> ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_about> :Property))
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint> ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_about> :Thing_in_role))
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint> ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_about> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>))
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Conduct> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Conduct>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Conduct> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Non_Account>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Conflict> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Conflict>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Conflict> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Confuse> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Confuse>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Confuse> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Consortium> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Consortium>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Consortium> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Consumer> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Consumer>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Consumer> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Content> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Content>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Content> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Non_Account>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Termination_Problem> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Termination_Problem>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Termination_Problem> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Post_purchase_phase>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Terms_Problem> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Terms_Problem>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Terms_Problem> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purchase_Phase>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_counterparty> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_counterparty>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_counterparty> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_originator> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_originator>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_originator> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_principal>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_party> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_party>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_party> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_principal> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_principal>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_principal> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_third_party> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_third_party>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_third_party> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlled_company> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlled_company>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlled_company> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlled_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlled_party> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlled_party>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlled_party> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlling_party> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlling_party>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlling_party> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Cosigner> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Cosigner>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Cosigner> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Councilor> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Councilor>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Councilor> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Credit_account> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Credit_account>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Credit_account> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service_account>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Creditor> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Creditor>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Creditor> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Customer_Service_Problem> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Customer_Service_Problem>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Customer_Service_Problem> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Post_purchase_phase>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Damage> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Damage>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Damage> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Damage_> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Damage_>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Damage_> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Non_Account>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dangerous> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dangerous>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dangerous> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Data_Collection> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Data_Collection>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Data_Collection> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Privacy>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dealer> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dealer>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dealer> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service_provider>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Debt> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Debt>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Debt> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Debtor> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Debtor>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Debtor> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Defendant> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Defendant>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Defendant> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Responsible_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deferral> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deferral>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deferral> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Delegation> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Delegation>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Delegation> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Delivery_Problem> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Delivery_Problem>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Delivery_Problem> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purchase_Phase>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Denied> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Denied>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Denied> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deposit> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deposit>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deposit> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deposit_account> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deposit_account>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deposit_account> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service_account>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deposit_witheld> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deposit_witheld>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Deposit_witheld> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Termination_Problem>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Depositor> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Depositor>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Depositor> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Derivative_contract_party> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Derivative_contract_party>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Derivative_contract_party> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Derogatory> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Derogatory>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Derogatory> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Designer> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Designer>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Designer> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Detriment> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Detriment>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Detriment> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Devastating> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Devastating>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Devastating> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disapprove> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disapprove>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disapprove> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disclosure> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disclosure>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disclosure> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disorganized> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disorganized>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disorganized> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dispute> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dispute>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dispute> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disruptive> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disruptive>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Disruptive> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dropped> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dropped>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dropped> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dusk> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dusk>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Dusk> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ecsi> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ecsi>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ecsi> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Email> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Email>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Email> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Endorsement> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Endorsement>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Endorsement> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Positive_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Enterprise> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Enterprise>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Enterprise> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Institutional_unit>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Environmental_Damage> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Environmental_Damage>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Environmental_Damage> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Damage_>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Error> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Error>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Error> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Escrow> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Escrow>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Escrow> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Establishment> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Establishment>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Establishment> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Institutional_unit>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event> ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#cause> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event_Outcome>))
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event> ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#done_by> :Thing_in_role))
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event_Outcome> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event_Outcome>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event_Outcome> ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_caused_by> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint>))
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event_Outcome> ObjectSomeValuesFrom(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#is_caused_by> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>))
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Eviction> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Eviction>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Eviction> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Examiner> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Examiner>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Examiner> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Responsible_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Exchange> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Exchange>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Exchange> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Executive> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Executive>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Executive> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlling_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Existing_Account> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Existing_Account>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Existing_Account> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fail> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fail>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fail> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fail_to_abide> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fail_to_abide>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fail_to_abide> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#False> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#False>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#False> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Falsifying> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Falsifying>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Falsifying> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fcu> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fcu>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fcu> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fee> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fee>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fee> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service_account> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service_account>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service_account> :Account)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service_provider> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service_provider>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service_provider> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service_provider>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Forced> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Forced>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Forced> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Foreclosure> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Foreclosure>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Foreclosure> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Foreclosure> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Forfeiture> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Forfeiture>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Forfeiture> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fraud> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fraud>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fraud> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Illegal_financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fraudster> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fraudster>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fraudster> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fraudunder> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fraudunder>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Fraudunder> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#General_Terms_Problem> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#General_Terms_Problem>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#General_Terms_Problem> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Terms_Problem>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Guarantor> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Guarantor>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Guarantor> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_third_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Happiness> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Happiness>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Happiness> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Positive_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Hardship> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Hardship>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Hardship> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Harm> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Harm>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Harm> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Harmful_Content> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Harmful_Content>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Harmful_Content> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Content>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Hassle> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Hassle>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Hassle> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#High_Pressure_Selling> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#High_Pressure_Selling>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#High_Pressure_Selling> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sales_Methods>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Holder> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Holder>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Holder> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Owner>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Horrible> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Horrible>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Horrible> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Household> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Household>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Household> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Institutional_unit>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Illegal_Content> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Illegal_Content>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Illegal_Content> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Content>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Illegal_financial_event> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Illegal_financial_event>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Illegal_financial_event> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Impound> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Impound>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Impound> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Improper> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Improper>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Improper> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_Marketing_Practices> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_Marketing_Practices>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_Marketing_Practices> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Pre_purchase_phase>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_assesment_of_a_Damage> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_assesment_of_a_Damage>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_assesment_of_a_Damage> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Damage_>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_information> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_information>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_information> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ineffective> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ineffective>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ineffective> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Inefficient> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Inefficient>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Inefficient> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Inflated> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Inflated>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Inflated> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Information_Problem> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Information_Problem>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Information_Problem> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negotiation_of_terms>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Injustice> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Injustice>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Injustice> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Institution> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Institution>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Institution> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Institutional_unit> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Institutional_unit>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Institutional_unit> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Insurance> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Insurance>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Insurance> :Product)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Insurer> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Insurer>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Insurer> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Organization_member>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Interest> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Interest>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Interest> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Intruder> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Intruder>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Intruder> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Investigator> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Investigator>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Investigator> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Investor> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Investor>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Investor> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Owner>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Issuer> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Issuer>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Issuer> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_originator>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Late> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Late>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Late> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lease> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lease>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lease> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Legal_agent> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Legal_agent>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Legal_agent> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lender> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lender>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lender> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lewd_or_Immoral_Conduct> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lewd_or_Immoral_Conduct>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lewd_or_Immoral_Conduct> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Conduct>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Licensed_agent> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Licensed_agent>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Licensed_agent> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Legal_agent>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Licensee> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Licensee>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Licensee> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Licensor> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Licensor>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Licensor> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lienholder> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lienholder>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lienholder> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Livid> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Livid>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Livid> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Loan> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Loan>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Loan> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Loan_account> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Loan_account>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Loan_account> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service_account>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Locked> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Locked>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Locked> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Looting> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Looting>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Looting> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Loss> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Loss>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Loss> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lost> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lost>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Lost> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Malicious> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Malicious>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Malicious> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Marketing> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Marketing>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Marketing> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Mastercard> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Mastercard>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Mastercard> :Product)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Merchant_service> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Merchant_service>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Merchant_service> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Miscellaneous> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Miscellaneous>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Miscellaneous> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Misconduct> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Misconduct>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Misconduct> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Miserable> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Miserable>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Miserable> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Mishandled> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Mishandled>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Mishandled> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Misinformation> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Misinformation>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Misinformation> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Misled> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Misled>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Misled> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Illegal_financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Miss> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Miss>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Miss> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Missleading> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Missleading>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Missleading> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Mistake> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Mistake>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Mistake> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Monitor> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Monitor>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Monitor> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event_Outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negotiation> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negotiation>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negotiation> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Positive_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negotiation_of_terms> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negotiation_of_terms>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negotiation_of_terms> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Pre_purchase_phase>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Non_Account> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Non_Account>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Non_Account> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Noncompliant> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Noncompliant>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Noncompliant> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Not_afford> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Not_afford>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Not_afford> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Not_receive> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Not_receive>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Not_receive> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Not_show_up> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Not_show_up>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Not_show_up> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Offer_Problem> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Offer_Problem>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Offer_Problem> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negotiation_of_terms>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Offeree> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Offeree>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Offeree> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Offeror> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Offeror>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Offeror> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ombudsmen> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ombudsmen>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ombudsmen> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Online> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Online>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Online> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Organization_member> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Organization_member>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Organization_member> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Originator> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Originator>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Originator> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overage> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overage>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overage> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overcharge> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overcharge>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overcharge> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overdraft> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overdraft>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overdraft> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overdrawn> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overdrawn>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Overdrawn> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Owner> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Owner>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Owner> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Partner> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Partner>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Partner> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Organization_member>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payee> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payee>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payee> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payer> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payer>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payer> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payment> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payment>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payment> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payment_Problem> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payment_Problem>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payment_Problem> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Billing_or_Payment_Problem>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payment_service> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payment_service>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payment_service> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Merchant_service>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payoff> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payoff>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payoff> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payroll> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payroll>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Payroll> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Personal_Selling> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Personal_Selling>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Personal_Selling> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_Marketing_Practices>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Positive_outcome> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Positive_outcome>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Positive_outcome> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event_Outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Post_purchase_phase> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Post_purchase_phase>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Post_purchase_phase> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Existing_Account>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Pre_purchase_phase> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Pre_purchase_phase>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Pre_purchase_phase> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Existing_Account>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Preposterous> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Preposterous>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Preposterous> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Prevent> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Prevent>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Prevent> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Price_unfair> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Price_unfair>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Price_unfair> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Terms_Problem>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Privacy> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Privacy>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Privacy> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Complaint>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Privacy_Information> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Privacy_Information>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Privacy_Information> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Privacy>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Private_Data_Access> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Private_Data_Access>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Private_Data_Access> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Privacy>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Processing> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Processing>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Processing> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Producer> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Producer>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Producer> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Product_Problem> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Product_Problem>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Product_Problem> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Post_purchase_phase>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Property_Damage> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Property_Damage>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Property_Damage> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Damage_>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Psychological_Damage> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Psychological_Damage>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Psychological_Damage> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Damage_>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Publisher> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Publisher>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Publisher> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purchase> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purchase>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purchase> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purchase_Phase> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purchase_Phase>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purchase_Phase> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Existing_Account>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purpose_and_Permission> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purpose_and_Permission>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Purpose_and_Permission> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Privacy>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Rebuild> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Rebuild>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Rebuild> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Receiver> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Receiver>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Receiver> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlling_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Refinance> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Refinance>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Refinance> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Refusal_Problem> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Refusal_Problem>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Refusal_Problem> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negotiation_of_terms>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Refuse> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Refuse>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Refuse> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registered_agent> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registered_agent>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registered_agent> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Legal_agent>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registrar> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registrar>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registrar> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Responsible_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registration_service> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registration_service>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registration_service> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Regulatory_service> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Regulatory_service>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Regulatory_service> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Registration_service>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Remitter> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Remitter>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Remitter> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Render> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Render>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Render> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Repay> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Repay>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Repay> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Report> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Report>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Report> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Reporting_party> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Reporting_party>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Reporting_party> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Repossession> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Repossession>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Repossession> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Reputation_Damage> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Reputation_Damage>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Reputation_Damage> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Damage_>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Resent> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Resent>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Resent> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Responsible_party> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Responsible_party>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Responsible_party> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Revoked> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Revoked>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Revoked> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Robosigner> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Robosigner>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Robosigner> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Rudeness> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Rudeness>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Rudeness> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Conduct>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ruin> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ruin>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ruin> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sake> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sake>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sake> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Positive_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sales_Methods> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sales_Methods>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sales_Methods> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Non_Account>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sales_Promotion> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sales_Promotion>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sales_Promotion> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Incorrect_Marketing_Practices>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Savings_account> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Savings_account>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Savings_account> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service_account>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Scam> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Scam>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Scam> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Illegal_financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Security> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Security>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Security> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Security_holder> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Security_holder>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Security_holder> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transferable_contract_holder>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Security_underwriter> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Security_underwriter>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Security_underwriter> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Third_party_agent>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Seller> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Seller>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Seller> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service_provider> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service_provider>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service_provider> :Thing_in_role)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Servicer> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Servicer>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Servicer> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Responsible_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Settlement> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Settlement>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Settlement> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Positive_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shareholder> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shareholder>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shareholder> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transferable_contract_holder>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shareholding> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shareholding>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shareholding> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Asset>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shirk> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shirk>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shirk> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shortage> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shortage>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Shortage> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Signatory> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Signatory>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Signatory> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Slammed> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Slammed>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Slammed> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Spoofed> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Spoofed>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Spoofed> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Stalling> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Stalling>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Stalling> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Struggle> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Struggle>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Struggle> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Subjected> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Subjected>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Subjected> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Submitter> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Submitter>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Submitter> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Subsidiary> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Subsidiary>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Subsidiary> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlled_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Supplier> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Supplier>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Supplier> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Swap_paying_party> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Swap_paying_party>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Swap_paying_party> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Debtor>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Swap_receiving_party> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Swap_receiving_party>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Swap_receiving_party> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Creditor>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Switching> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Switching>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Switching> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_Termination_Problem>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Tax> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Tax>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Tax> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Telemarketer> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Telemarketer>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Telemarketer> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Terminated> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Terminated>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Terminated> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Third_party_agent> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Third_party_agent>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Third_party_agent> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Legal_agent>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Threaten> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Threaten>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Threaten> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trader> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trader>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trader> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Service_provider>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transaction> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transaction>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transaction> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_event>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transfer_service> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transfer_service>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transfer_service> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Financial_service>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transferable_contract_holder> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transferable_contract_holder>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Transferable_contract_holder> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Contract_counterparty>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trust_fund_manager> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trust_fund_manager>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trust_fund_manager> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trustee> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trustee>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trustee> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Organization_member>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trustor> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trustor>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Trustor> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Organization_member>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ultimate_consumer> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ultimate_consumer>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Ultimate_consumer> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Consumer>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unexpected_Charge> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unexpected_Charge>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unexpected_Charge> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Billing_or_Payment_Problem>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unidentified> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unidentified>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unidentified> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unsolicated_Commercial_Communications> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unsolicated_Commercial_Communications>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unsolicated_Commercial_Communications> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sales_Methods>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unsolicated_Goods> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unsolicated_Goods>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unsolicated_Goods> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sales_Methods>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unsolicated_Service> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unsolicated_Service>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unsolicated_Service> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Sales_Methods>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Untrutfulness> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Untrutfulness>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Untrutfulness> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Conduct>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unvalidate> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unvalidate>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Unvalidate> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Vandalized> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Vandalized>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Vandalized> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Victim> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Victim>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Victim> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Party_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Violation> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Violation>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Violation> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Warrant_holder> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Warrant_holder>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Warrant_holder> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Controlling_party>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Withdrawal> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Withdrawal>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Withdrawal> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Activity>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Wrong> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Wrong>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Wrong> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Negative_outcome>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#borrower> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#borrower>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#borrower> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Debtor>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#contractually_capable_entity> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#contractually_capable_entity>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#contractually_capable_entity> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Agent_in_role>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#lender> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#lender>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#lender> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Creditor>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#partner> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#partner>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#partner> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Owner>)
+
+# Class: <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#shareholder> (<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#shareholder>)
+
+SubClassOf(<http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#shareholder> <http://www.semanticweb.org/phunglai/ontologies/2019/1/untitled-ontology-4a#Owner>)
+
+
+
+)

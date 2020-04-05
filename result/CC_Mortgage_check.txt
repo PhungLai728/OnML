@@ -1,0 +1,420 @@
+Tweet index: 1
+
+Processed tweet: we are going through financial hardship and we submitted a loss mitigation application in . the loan company is difficult to get a hold of . we faxed documents and we would follow up with a call and told application is in review then weeks later something comes in the mail saying we are missing pg number number we would email it to the email provided and no response . so finally we received a letter in saying loss mitigation application denied for not sending information timely . this is very frustrating we are now number months behind and can not get any help .
+
+Prediction: 3, Actual: 3
+
+OLLIE rules: 
+   ['we; are submitted; a loss mitigation application']
+ 
+   ['we; are going through; financial hardship']
+ 
+   ['the loan company; is; difficult']
+ 
+   ['we; would email it to; the email']
+ 
+   ['we; would follow up with; a call']
+ 
+   ['we; would email; it']
+ 
+   ['something; weeks later comes in; the mail saying we are missing pg NUMBER NUMBER']
+ 
+   ['it; would be email to; the email']
+ 
+   ['something; weeks later comes response; no response']
+ 
+   ['we; would told; application']
+ 
+   ['we; are missing; pg NUMBER NUMBER we would email it to the email']
+ 
+   ['we; faxed would; documents']
+ 
+   ['something; weeks later comes to; the mail saying we are missing pg NUMBER NUMBER']
+ 
+   ['we; so finally received; a letter']
+ 
+Ontology-based: 
+
+   missing email
+
+   received application denied
+
+Anchors: 
+
+   no response
+
+   not sending information timely
+
+   not get any help
+
+LIME: 
+
+   review; then; mitigation; we; loss; with; a; application; of; the; later; hold; follow; are; through; is; weeks; and; and; in
+
+Ontology-based - Anchors: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.16738637]
+
+   ['not get any help', 0.037930306]
+
+   ['received a letter in saying loss mitigation application denied for not sending information timely', 0.010693831]
+
+Normalized: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.7748992]
+
+   ['not get any help', 0.17559472]
+
+   ['received a letter in saying loss mitigation application denied for not sending information timely', 0.04950607]
+
+OLLIE - Anchors: 
+
+   ['not get any help', 0.037930306]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.030292874]
+
+   ['we would email it to the email provided and no response', 0.0028762878]
+
+Normalized: 
+
+   ['not get any help', 0.53348225]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.4260633]
+
+   ['we would email it to the email provided and no response', 0.04045442]
+
+Ensemble results: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.16738637]
+
+   ['not get any help', 0.037930306]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.030292874]
+
+Normalized: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.7104397]
+
+   ['not get any help', 0.16098799]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.12857236]
+
+
+ ============= ********* =============
+
+
+Tweet index: 1
+
+Processed tweet: we are going through financial hardship and we submitted a loss mitigation application in . the loan company is difficult to get a hold of . we faxed documents and we would follow up with a call and told application is in review then weeks later something comes in the mail saying we are missing pg number number we would email it to the email provided and no response . so finally we received a letter in saying loss mitigation application denied for not sending information timely . this is very frustrating we are now number months behind and can not get any help .
+
+Prediction: 3, Actual: 3
+
+OLLIE rules: 
+   ['we; are submitted; a loss mitigation application']
+ 
+   ['we; are going through; financial hardship']
+ 
+   ['the loan company; is; difficult']
+ 
+   ['we; would email it to; the email']
+ 
+   ['we; would follow up with; a call']
+ 
+   ['we; would email; it']
+ 
+   ['something; weeks later comes in; the mail saying we are missing pg NUMBER NUMBER']
+ 
+   ['it; would be email to; the email']
+ 
+   ['something; weeks later comes response; no response']
+ 
+   ['we; would told; application']
+ 
+   ['we; are missing; pg NUMBER NUMBER we would email it to the email']
+ 
+   ['we; faxed would; documents']
+ 
+   ['something; weeks later comes to; the mail saying we are missing pg NUMBER NUMBER']
+ 
+   ['we; so finally received; a letter']
+ 
+Ontology-based: 
+
+   missing email
+
+   received application denied
+
+Anchors: 
+
+   no response
+
+   not sending information timely
+
+   not get any help
+
+LIME: 
+
+   review; then; mitigation; loss; we; a; with; application; of; the; later; hold; follow; are; is; through; and; in; weeks; and
+
+Ontology-based - Anchors: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.16738637]
+
+   ['not get any help', 0.037930306]
+
+   ['received a letter in saying loss mitigation application denied for not sending information timely', 0.010693831]
+
+Normalized: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.7748992]
+
+   ['not get any help', 0.17559472]
+
+   ['received a letter in saying loss mitigation application denied for not sending information timely', 0.04950607]
+
+OLLIE - Anchors: 
+
+   ['not get any help', 0.037930306]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.030292874]
+
+   ['we would email it to the email provided and no response', 0.0028762878]
+
+Normalized: 
+
+   ['not get any help', 0.53348225]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.4260633]
+
+   ['we would email it to the email provided and no response', 0.04045442]
+
+Ensemble results: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.16738637]
+
+   ['not get any help', 0.037930306]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.030292874]
+
+Normalized: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.7104397]
+
+   ['not get any help', 0.16098799]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.12857236]
+
+
+ ============= ********* =============
+
+
+Tweet index: 1
+
+Processed tweet: we are going through financial hardship and we submitted a loss mitigation application in . the loan company is difficult to get a hold of . we faxed documents and we would follow up with a call and told application is in review then weeks later something comes in the mail saying we are missing pg number number we would email it to the email provided and no response . so finally we received a letter in saying loss mitigation application denied for not sending information timely . this is very frustrating we are now number months behind and can not get any help .
+
+Prediction: 3, Actual: 3
+
+OLLIE rules: 
+   ['we; are submitted; a loss mitigation application']
+ 
+   ['we; are going through; financial hardship']
+ 
+   ['the loan company; is; difficult']
+ 
+   ['we; would email it to; the email']
+ 
+   ['we; would follow up with; a call']
+ 
+   ['we; would email; it']
+ 
+   ['something; weeks later comes in; the mail saying we are missing pg NUMBER NUMBER']
+ 
+   ['it; would be email to; the email']
+ 
+   ['something; weeks later comes response; no response']
+ 
+   ['we; would told; application']
+ 
+   ['we; are missing; pg NUMBER NUMBER we would email it to the email']
+ 
+   ['we; faxed would; documents']
+ 
+   ['something; weeks later comes to; the mail saying we are missing pg NUMBER NUMBER']
+ 
+   ['we; so finally received; a letter']
+ 
+Ontology-based: 
+
+   missing email
+
+   received application denied
+
+Anchors: 
+
+   no response
+
+   not sending information timely
+
+   not get any help
+
+LIME: 
+
+   review; then; mitigation; we; loss; a; with; application; of; the; hold; follow; later; are; is; through; and; weeks; and; in
+
+Ontology-based - Anchors: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.16738637]
+
+   ['not get any help', 0.037930306]
+
+   ['received a letter in saying loss mitigation application denied for not sending information timely', 0.010693831]
+
+Normalized: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.7748992]
+
+   ['not get any help', 0.17559472]
+
+   ['received a letter in saying loss mitigation application denied for not sending information timely', 0.04950607]
+
+OLLIE - Anchors: 
+
+   ['not get any help', 0.037930306]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.030292874]
+
+   ['we would email it to the email provided and no response', 0.0028762878]
+
+Normalized: 
+
+   ['not get any help', 0.53348225]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.4260633]
+
+   ['we would email it to the email provided and no response', 0.04045442]
+
+Ensemble results: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.16738637]
+
+   ['not get any help', 0.037930306]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.030292874]
+
+Normalized: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.7104397]
+
+   ['not get any help', 0.16098799]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.12857236]
+
+
+ ============= ********* =============
+
+
+Tweet index: 1
+
+Processed tweet: we are going through financial hardship and we submitted a loss mitigation application in . the loan company is difficult to get a hold of . we faxed documents and we would follow up with a call and told application is in review then weeks later something comes in the mail saying we are missing pg number number we would email it to the email provided and no response . so finally we received a letter in saying loss mitigation application denied for not sending information timely . this is very frustrating we are now number months behind and can not get any help .
+
+Prediction: 3, Actual: 3
+
+OLLIE rules: 
+   ['we; are submitted; a loss mitigation application']
+ 
+   ['we; are going through; financial hardship']
+ 
+   ['the loan company; is; difficult']
+ 
+   ['we; would email it to; the email']
+ 
+   ['we; would follow up with; a call']
+ 
+   ['we; would email; it']
+ 
+   ['something; weeks later comes in; the mail saying we are missing pg NUMBER NUMBER']
+ 
+   ['it; would be email to; the email']
+ 
+   ['something; weeks later comes response; no response']
+ 
+   ['we; would told; application']
+ 
+   ['we; are missing; pg NUMBER NUMBER we would email it to the email']
+ 
+   ['we; faxed would; documents']
+ 
+   ['something; weeks later comes to; the mail saying we are missing pg NUMBER NUMBER']
+ 
+   ['we; so finally received; a letter']
+ 
+Ontology-based: 
+
+   missing email
+
+   received application denied
+
+Anchors: 
+
+   no response
+
+   not sending information timely
+
+   not get any help
+
+LIME: 
+
+   review; then; mitigation; we; loss; with; a; application; the; of; hold; later; follow; are; is; through; weeks; and; and; in
+
+Ontology-based - Anchors: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.16738637]
+
+   ['not get any help', 0.037930306]
+
+   ['received a letter in saying loss mitigation application denied for not sending information timely', 0.010693831]
+
+Normalized: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.7748992]
+
+   ['not get any help', 0.17559472]
+
+   ['received a letter in saying loss mitigation application denied for not sending information timely', 0.04950607]
+
+OLLIE - Anchors: 
+
+   ['not get any help', 0.037930306]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.030292874]
+
+   ['we would email it to the email provided and no response', 0.0028762878]
+
+Normalized: 
+
+   ['not get any help', 0.53348225]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.4260633]
+
+   ['we would email it to the email provided and no response', 0.04045442]
+
+Ensemble results: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.16738637]
+
+   ['not get any help', 0.037930306]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.030292874]
+
+Normalized: 
+
+   ['missing pg number number we would email it to the email provided and no response', 0.7104397]
+
+   ['not get any help', 0.16098799]
+
+   ['so finally we received a letter in saying loss mitigation application denied for not sending information timely', 0.12857236]
+
+
+ ============= ********* =============
+
+
