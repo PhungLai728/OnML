@@ -28,7 +28,8 @@ The repository comes with instructions to reproduce the results in the paper or 
 
 To view Ontology:
 + ConSo and DrugAO ontologies used in the paper are provided in folder `ontologies`.
-+ Open ontology by [Protégé](https://protege.stanford.edu/products.php) or Import it to [WebVOWL](http://vowl.visualdataweb.org/webvowl.html).
++ Open ontology locally by [Protégé](https://protege.stanford.edu/products.php).
++ Open ontology online by importing the ontology on [WebVOWL](http://vowl.visualdataweb.org/webvowl.html).
 
 To reproduce the results:
 + Clone or download the folder from this repository.
