@@ -33,7 +33,7 @@ To view Ontology:
 
 To reproduce the results:
 + Clone or download the folder from this repository.
-+ Some large-size data or pretrained models are provided in [Google Drive folder](https://drive.google.com/drive/my-drive).
++ Some large-size data or pretrained models are provided in [Google Drive folder](https://drive.google.com/drive/folders/17w6RLR5pTG8BfXN-039YWBMnJWrYGKmK?usp=sharing).
 + Run `python3 main_cc.py`
 + Note: Due to the privacy requirements of Drug data, this repository only provides data and code for consumer complaints. 
 
