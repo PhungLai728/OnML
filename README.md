@@ -5,8 +5,8 @@ This is the official implementation of the [Ontology-based Interpretable Machine
 If you use this code or our results in your research, please cite as appropriate:
 
 ```
-@article{abc,
-  title={{Ontology-based Interpretable Machine Learning for Textual Data}},
+@article{phung2020ontology,
+  title={Ontology-based Interpretable Machine Learning for Textual Data},
   author={Phung, Lai and NhatHai, Phan and Han, Hu and Anuja, Badeti and David, Newman and Dejing Dou},
   journal={International Joint Conference on Neural Networks},
   year={2020}
