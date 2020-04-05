@@ -1,6 +1,6 @@
-# OnML (Ontology-based Interpretable Machine Learning)
+# OnML (Ontology-based Interpretable Machine Learning for Textual Data)
 
-This is the official implementation of the [Ontology-based Interpretable Machine Learningfor Textual Data](https://arxiv.org/pdf/2004.00204.pdf) in Tensorflow.
+This is the official implementation of the [Ontology-based Interpretable Machine Learning for Textual Data](https://arxiv.org/pdf/2004.00204.pdf) in Tensorflow.
 
 If you use this code or our results in your research, please cite as appropriate:
 
