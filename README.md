@@ -33,7 +33,7 @@ To view Ontology:
 
 To reproduce the results:
 + Clone or download the folder from this repository.
-+ Some large-size data or pretrained models are provided in [Google Drive folder](https://drive.google.com/drive/folders/17w6RLR5pTG8BfXN-039YWBMnJWrYGKmK?usp=sharing).
++ Some large-size data or pretrained models of any file needed to run, if you cannot find in Github, please find it at [Google Drive folder](https://drive.google.com/drive/folders/17w6RLR5pTG8BfXN-039YWBMnJWrYGKmK?usp=sharing). 
 + Run `python3 main_cc.py`
 + Note: Due to the privacy requirements of Drug data, this repository only provides data and code for consumer complaints. 
 
@@ -41,6 +41,8 @@ To play with the model, you can:
 + Change classifier: In this code, the pretrained models are provided in folder `model/` in `h5`, `json`, and `pickle` format. You can train your own classifier, save it in the same format, and then load it in the main function.
 + Customize data, ontology concepts, relations among ontology concepts, anchor list, and stopword list in `data/`.
 
+To customize the code with your data:
++ Go to `reproduce` folder.
 
 ## Issues
 If you have any issues while running the code or further information, please send email directly to the first author of this paper. 
