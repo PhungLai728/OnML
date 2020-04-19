@@ -13,34 +13,27 @@ If you use this code or our results in your research, please cite as appropriate
 }
 ```
 
+## Customize OnML with your data, model, and ontology
 
-## Software Requirements
+Folder `AMT_evaluation`:
++ This folder is to help you create data for uploading Amazon Mechanical Turk,
++ Data (images) is in `screen_shots`,
++ Run `python3 gen_CSV.py` to generate script for AMT.
 
-Python 3 is used for the current codebase.
+Folder `OLLIE`:
++ Generate triples using OLLIE. Some examples are provided,
++ Run `python3 create_txt.py` to create input files for OLLIE,
++ Run `bash run.sh` to get output of OLLIE. Do not forget to download `ollie-app-latest.jar` from [Google Drive folder](https://drive.google.com/drive/folders/17w6RLR5pTG8BfXN-039YWBMnJWrYGKmK?usp=sharing).
 
-Tensorflow 1.1 or later
+Folder `Preprocessing_data`:
++ Run `python3 preprocess.py` to do data processing,
++ Run `python3 onto.py` to get information from ontology. Note that `ConSo_onto.csv` was generated directly from an ontology in Protégé (Protégé 5.5.0-beta-9 was used in this project) and an add-on `Export to CSV`,
++ Run `python3 gen_vocab_matrix.py` to generate w2v matrix of dictionary,
++ Run `python3 get_X.py` to get data, which is used in `main_cc.py` and `lstm_cc.py`.
 
-Protégé for Ontology
+Folder `Prediction_model`:
++ Run `python3 lstm_cc.py` for model prediction (The LSTM model is used as an original prediction model in OnML).
 
+Note:
++ In running OnML model, you will see some files, such as `concepts_property_cc_071119.csv`, `abstract_concepts_CC_071119`, etc. They are manually generated based on the relations of concepts on the ontology. If you are interested in how to generate them, please contact the first author of this paper. 
 
-## Experiments
-The repository comes with instructions to reproduce the results in the paper or to train the model from scratch:
-
-To view Ontology:
-+ ConSo and DrugAO ontologies used in the paper are provided in folder `ontologies`.
-+ Open ontology locally by [Protégé](https://protege.stanford.edu/products.php).
-+ Open ontology online by importing the ontology on [WebVOWL](http://vowl.visualdataweb.org/webvowl.html).
-
-To reproduce the results:
-+ Clone or download the folder from this repository.
-+ Some large-size data or pretrained models are provided in [Google Drive folder](https://drive.google.com/drive/folders/17w6RLR5pTG8BfXN-039YWBMnJWrYGKmK?usp=sharing).
-+ Run `python3 main_cc.py`
-+ Note: Due to the privacy requirements of Drug data, this repository only provides data and code for consumer complaints. 
-
-To play with the model, you can:
-+ Change classifier: In this code, the pretrained models are provided in folder `model/` in `h5`, `json`, and `pickle` format. You can train your own classifier, save it in the same format, and then load it in the main function.
-+ Customize data, ontology concepts, relations among ontology concepts, anchor list, and stopword list in `data/`.
-
-
-## Issues
-If you have any issues while running the code or further information, please send email directly to the first author of this paper. 
