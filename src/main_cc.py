@@ -1319,15 +1319,18 @@ def ontology_reasoning(target_idx, target_tweet_ori, target_tweet, target_tweet_
                 sorted_w_and_i_cut.append([tmp3[1], tmp3[0]])
                 sorted_norm_w_and_i_cut.append([tmp4[1], tmp4[0]])
         
-            with open('../model/classifier_cc.p', 'rb') as inf:
-                model_lime = pickle.load(inf)
-            with open('../model/vectorizer_cc.p', 'rb') as inf:
-                vectorizer_cc = pickle.load(inf)
-            c = make_pipeline(vectorizer_cc, model_lime)
+            # with open('../model/classifier_cc.p', 'rb') as inf:
+            #     model_lime = pickle.load(inf)
+            # with open('../model/vectorizer_cc.p', 'rb') as inf:
+            #     vectorizer_cc = pickle.load(inf)
+                
+            # c = make_pipeline(vectorizer_cc, model_lime)
+            
             explainer = LimeTextExplainer(class_names=class_names) 
             len_1 = len(sen_tk) - 1
-            exp = explainer.explain_instance(coarse_tweet, c.predict_proba, num_features=len_1)
-            exp2 = explainer.explain_instance(coarse_tweet, c.predict_proba, num_features=5)
+
+            exp = explainer.explain_instance(coarse_tweet, vocab_cc, model, num_features=len_1)
+            exp2 = explainer.explain_instance(coarse_tweet, vocab_cc, model, num_features=5)
             prob_max = max(ori_prob_vec[0])
             others_avg = (1-prob_max)/(ori_prob_vec.shape[1] - 1)
             prob_max_norm = prob_max/(prob_max + others_avg)

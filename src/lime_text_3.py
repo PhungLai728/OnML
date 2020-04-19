@@ -11,6 +11,10 @@ import numpy as np
 import scipy as sp
 import sklearn
 from sklearn.utils import check_random_state
+from keras.preprocessing.sequence import pad_sequences
+
+import nltk
+from nltk.tokenize import word_tokenize 
 
 # from . import explanation
 # from . import lime_base
@@ -351,6 +355,7 @@ class LimeTextExplainer(object):
 
     def explain_instance(self,
                          text_instance,
+                         vocab_cc,
                          classifier_fn,
                          labels=(1,),
                          top_labels=None,
@@ -393,7 +398,7 @@ class LimeTextExplainer(object):
         domain_mapper = TextDomainMapper(indexed_string)
 
         data, yss, distances = self.__data_labels_distances(
-            indexed_string, classifier_fn, num_samples,
+            indexed_string, vocab_cc, classifier_fn, num_samples,
             distance_metric=distance_metric)
             
         if self.class_names is None:
@@ -417,6 +422,7 @@ class LimeTextExplainer(object):
 
     def __data_labels_distances(self,
                                 indexed_string,
+                                vocab_cc,
                                 classifier_fn,
                                 num_samples,
                                 distance_metric='cosine'):
@@ -462,6 +468,20 @@ class LimeTextExplainer(object):
                                                 replace=False)
             data[i, inactive] = 0
             inverse_data.append(indexed_string.inverse_removing(inactive))
-        labels = classifier_fn(inverse_data)
+
+        labels = []
+        for i in range(num_samples):
+            print(i)
+            z_str = inverse_data[i]
+            z_str = z_str.replace('.',' ') 
+            sen_tk =  nltk.word_tokenize(z_str)
+            x_tmp = [vocab_cc[k] for k in sen_tk]
+            z_vector = pad_sequences([x_tmp] , maxlen=100, padding='post', truncating = 'post') # truncate the post, and keep pre
+            z_probs = classifier_fn.predict(z_vector, verbose=0)
+            labels.append(z_probs)
+
+        # labels = classifier_fn(inverse_data)
+        labels = np.stack(labels)
+        labels = np.squeeze(labels, axis=1)
         distances = distance_fn(sp.sparse.csr_matrix(data))
         return data, labels, distances
