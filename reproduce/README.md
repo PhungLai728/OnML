@@ -35,5 +35,5 @@ Folder `Prediction_model`:
 + Run `python3 lstm_cc.py` for model prediction (The LSTM model is used as an original prediction model in OnML).
 
 Note:
-+ While running OnML model, you see some files, such as `concepts_property_cc_071119.csv`, `abstract_concepts_CC_071119`, etc. They are manually generated based on the relations of concepts on the ontology. If you are interested in how to generate them, please contact the first author of this paper!
++ While running OnML model, you see some files, such as `concepts_property_cc_071119.csv`, `abstract_concepts_CC_071119`, etc. They are manually generated based on the relations of concepts on the ontology. If you are interested in how to generate them, please contact the first author of this paper (`tl353@njit.edu`)!
 
