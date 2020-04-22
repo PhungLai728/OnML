@@ -45,4 +45,4 @@ To customize the code with your data or train the prediction model:
 + Go to `reproduce` folder. Instructions are provided there. 
 
 ## Issues
-If you have any issues while running the code or further information, please send email directly to the first author of this paper. 
+If you have any issues while running the code or further information, please send email directly to the first author of this paper (`tl353@njit.edu`). 
