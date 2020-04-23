@@ -27,7 +27,8 @@ Folder `OLLIE`:
 
 Folder `Preprocessing_data`:
 + Run `python3 preprocess.py` to do data processing,
-+ Run `python3 onto.py` to get information from ontology. Note that `ConSo_onto.csv` was generated directly from an ontology in Protégé (Protégé 5.5.0-beta-9 was used in this project) and an add-on `Export to CSV`,
++ Run `python3 onto.py` to get information from ontology. Note that `ConSo_onto.csv` was generated directly from an ontology in Protégé (Protégé 5.5.0-beta-9 was used in this project) and an add-on `Export to CSV`. 
+Please follow the following link to add `Excel` plugin to your Protégé `https://github.com/protegeproject/csv-export-plugin`. After add the plugin, you will be able to use add-on `Export to CSV`,
 + Run `python3 gen_vocab_matrix.py` to generate w2v matrix of dictionary,
 + Run `python3 get_X.py` to get data, which is used in `main_cc.py` and `lstm_cc.py`.
 
