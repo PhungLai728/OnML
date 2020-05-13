@@ -75,6 +75,37 @@ def model_lstm_relu_embedding(X_train, X_test, Y_train, Y_test, vocab_matrix, em
 
     return model
 
+occurrences = lambda s, lst: (i for i,e in enumerate(lst) if e == s)
+def split_to_train_test_(data, label, label_no, train_frac=0.8, test_frac=0.1, val_frac=0.1):
+    labels = list(set(label_no))
+    idx_train = []
+    idx_test = []
+    idx_val = []
+    for lbl in labels:
+        lbl_full = list(occurrences(lbl, label_no)) 
+        idx = np.arange(0 , len(lbl_full))
+        np.random.shuffle(idx)
+        lbl_full = [lbl_full[idx[i]] for i in range(len(idx))] 
+        num = int(np.floor(train_frac*len(lbl_full)))
+        num2 = int(np.floor(test_frac*len(lbl_full)))
+        idx_tr = lbl_full[:num]
+        idx_te = lbl_full[num:num+num2]
+        idx_va = lbl_full[num+num2:]
+
+        idx_train.extend(idx_tr)
+        idx_test.extend(idx_te)
+        idx_val.extend(idx_va)
+
+    # return train_idx, test_idx, val_idx
+    x_train = [data[ i] for i in idx_train]
+    y_train = [label[ i] for i in idx_train]
+    x_test = [data[ i] for i in idx_test]
+    y_test = [label[ i] for i in idx_test]
+    x_val = [data[ i] for i in idx_val]
+    y_val = [label[ i] for i in idx_val]
+    # return x_train, y_train, x_test, y_test
+    return np.asarray(x_train), np.asarray(y_train), np.asarray(x_test), np.asarray(y_test), np.asarray(x_val), np.asarray(y_val)
+
 def split_data(data, label, percent):
     idx = np.arange(0 , len(data))
     np.random.shuffle(idx)
@@ -119,7 +150,8 @@ n_classes = 16
 train_percent = 0.7
 print('start split')
 start_time = time.time()
-x_train, y_train, x_test, y_test = split_data(x_pad, y_all, train_percent)
+# x_train, y_train, x_test, y_test = split_data(x_pad, y_all, train_percent)
+x_train, y_train, x_test, y_test, x_val, y_val = split_to_train_test_(x_pad, y_all, issuse_no, 0.8, 0.1, 0.1)
 
 # Train LSTM model
 print('start train')
