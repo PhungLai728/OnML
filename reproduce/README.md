@@ -17,6 +17,7 @@ If you use this code or our results in your research, please cite as appropriate
 
 Folder `AMT_evaluation`:
 + This folder is to help you create data for uploading Amazon Mechanical Turk,
++ Run `python3 chrome_test.py` to create screenshots from .html to get images in `screen_shots`. Please make sure Chromedriver is compatible with your Chrome version,
 + Data (images) is in `screen_shots`,
 + Run `python3 gen_CSV.py` to generate script for AMT.
 
