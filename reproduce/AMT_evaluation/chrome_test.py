@@ -14,7 +14,7 @@ When u see this message, download the chromdriver that is compatible with ur cur
 '''
 files = os.listdir('./Vis/')
 # CHROME_PATH = '/usr/bin/google-chrome'
-CHROMEDRIVER_PATH = '/Users/phunglai/Documents/Work/Papers/IJCNN2020/IJCNN2020_code/reproduce/AMT_evaluation/chromedriver-2'
+CHROMEDRIVER_PATH = '/Users/phunglai/Documents/Work/Papers/IJCNN2020/IJCNN2020_code/reproduce/AMT_evaluation/chromedriver-3'
 WINDOW_SIZE = "1920,1080"
 # WINDOW_SIZE = "1500,600"
 
