@@ -16,7 +16,8 @@ If you use this code or our results in your research, please cite as appropriate
 
 ## Software Requirements
 
-Python 3 is used for the current codebase.
+Python 3.6 is used for the current codebase. 
+(Note that if this code uses part of LIME code for visualization, and that visualization does not work with Python 3.7 ([error](https://github.com/marcotcr/lime/issues/294). So I recommend you to use Python3 < 3.7 to be able to run the whole code, otherwise, you can run OnML but no visualization.) 
 
 Tensorflow 1.1 or later
 
